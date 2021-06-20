@@ -1,0 +1,308 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    color: white;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('../images/netflix.jpg');
+    background-position: center;
+    background-size: cover; 
+}
+a{
+    text-decoration: none;
+}
+.navbar{
+    display: flex;
+    /*background-color: black;*/
+    width: 100%;
+    height: 70px;
+}
+.navbar h1{
+    margin-left: 30px;
+    color: red;
+    font-size: 40px;
+    line-height: 70px;
+    margin-right: auto;
+    text-transform: uppercase;
+}
+.navbar ul{
+    list-style: none;
+    margin-right: 50px;
+}
+.navbar ul li{
+    display: inline;
+    padding: 10px 15px;
+    border: none;
+    line-height: 70px;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-right: 20px;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/*.navbar ul li::after{
+    content: '';
+    width: 0;
+    background-color: violet;
+    height: 3px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transition: all 0.5s;
+}
+.navbar ul li:hover::after{
+    width: 100%;
+}*/
+.text-box{
+    width: 100%;
+    position: absolute;
+    top:50%;
+    transform: translateY(-50%);
+    text-align: center;
+}
+.text-box h1{
+    font-size: 50px;
+    font-weight: 500;
+}
+.text-box p{
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+.text-box input[type=email]{
+    width:300px;
+    font-size: 26px;
+    outline: none;
+    padding: 8px 15px;
+    color: black;
+}
+.text-box button{
+    background: red;
+    border:none;
+    text-align: center;
+    font-size: 28px;
+    text-transform: uppercase;
+    padding: 8px 15px;
+}
+.text-box span{
+    margin-left: 5px;
+    font-size: 24px;
+}
+hr{
+    height: 5px;
+    width: 100%;
+    background-color: grey;
+    color: gray;
+    border: gray;
+}
+.sectionvdo{
+    width: 100wh;
+    background-color: black;
+    justify-content:center;
+    display: flex;
+    align-items: center;
+    padding: 100px 50px;
+    
+}
+
+.sectionvdo img{
+    width: 100%;
+}
+.sectionvdo h1{
+    font-size: 50px;
+    line-height: 60px;
+    margin-bottom: 10px;
+}
+.sectionvdo h2{
+    font-size: 26px;
+}
+.vdo2{
+    margin-right: 50px;
+    position: relative;
+}
+.vdo2 img{
+    width: 400px;
+}
+.vdo {
+    position: relative;
+}
+.vdo img{
+    z-index: 22;
+    position: relative;
+}
+.newvdo1{
+    width: 75%;
+    position: absolute;
+    top:20%;
+    left: 12%;
+}
+.animations{
+    height: 100px;
+    width: 300px;
+    display: flex;
+    background: black;
+    justify-content:space-between;
+    border: 2px solid grey;
+    border-radius: 5px;
+    align-items: center;
+    padding: 10px 10px;
+    position: absolute;
+    bottom:0%;
+    left:10%;
+}
+.animations img{
+    width: 60px;
+    height: 80px;
+}
+.animations h1{
+    font-size: 20px;
+    line-height: 20px;
+}
+.animations p{
+    color: blue;
+}
+.animations i{
+    font-size: 50px;
+    color: blue;
+    background-color:black;
+    border:none;
+}
+.newvdo2{
+    width:65%;
+    position: absolute;
+    top:9%;
+    left: 16%;
+}
+.vdo3{
+    width: 50vw;
+}
+.vdo3 img{
+    width: 100%;
+}
+.frequently{
+    width: 100%;
+    display: block;
+    background-color: black;
+    align-items: center;
+    text-align: center;
+    padding: 100px 0px;
+}
+.herotag{
+    font-size: 50px;
+}
+.classdiv{
+    width:60%;
+    height: 60px;
+    align-items: center;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    background:rgb(58, 54, 54);
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    padding: 0px 10px;
+    cursor: pointer;
+}
+.frequently div h1{
+    font-size: 30px;
+    line-height: 60px;
+}
+.frequently div h1 span{
+    float: right;
+    font-weight: 2;
+}
+.hidden{
+    display: none;
+    width: 60%;
+    align-items: center;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    background:rgb(58, 54, 54);
+    border: none;
+    margin-top: 1px;
+    padding: 30px 20px;
+}
+.footersearch{
+    margin-top: 50px;
+}
+.footersearch p{
+    font-size: 26px;
+    margin-bottom: 30px;
+}
+input[type=email]{
+    width:300px;
+    font-size: 26px;
+    outline: none;
+    padding: 8px 15px;
+    color: black;
+}
+button{
+    background: red;
+    border:none;
+    text-align: center;
+    font-size: 28px;
+    text-transform: uppercase;
+    padding: 8px 15px;
+}
+footer{
+    padding: 30px;
+    background-color: black;
+    width: 100%;
+    text-align: left;
+    color: gray;
+}
+footer h1{
+    margin-left: 120px;
+    font-size: 16px;
+    color: grey;
+}
+.footercard{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content:space-between;
+    padding-bottom: 30px;
+}
+ul{
+    list-style: none;
+}
+.footercard a{
+    text-decoration: none;
+    font-size: 20px;
+    color: grey;
+    line-height: 35px;
+}
+@media (max-width: 944px) {
+    .sectionvdo{
+    flex-direction: column;
+    }
+    .sectionvdo1{
+        flex-direction: column-reverse;
+    }
+    .text-box h1{
+        font-size: 30px;
+    }
+    .text-box h2{
+        font-size: 20px;
+    }
+    .sectionvdo div{
+      width: 100wh;
+      margin-top: 100px;
+    }
+    .sectionvdo div{
+        text-align: center;
+    }
+    .animations{
+        align-items: flex-end;
+    }
+    .vdo3{
+        width: 100%;
+    }
+  }
